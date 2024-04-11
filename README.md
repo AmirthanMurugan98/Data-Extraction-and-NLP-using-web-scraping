@@ -1,1 +1,73 @@
+1.Objective
+The objective of this assignment is to extract textual data articles from the given URL and perform text analysis to compute variables that are explained below.
+
+2.Data Extraction
+Input.xlsx
+For each of the articles, given in the input.xlsx file, extract the article text and save the extracted article in a text file
+
+3.Data Analysis
+For each of the extracted texts from the article, perform textual analysis and compute variables, given in the output structure excel file. You need to save the output in the exact order as given in the output structure file, “Output Data Structure.xlsx”
+
+4.Variables
+Definition of each of the variables given in the “Text Analysis.docx” file. Look for these variables in the analysis document (Text Analysis.docx):
+
+POSITIVE SCORE
+NEGATIVE SCORE
+POLARITY SCORE
+SUBJECTIVITY SCORE
+AVG SENTENCE LENGTH
+PERCENTAGE OF COMPLEX WORDS
+FOG INDEX
+AVG NUMBER OF WORDS PER SENTENCE
+COMPLEX WORD COUNT
+WORD COUNT
+SYLLABLE PER WORD
+PERSONAL PRONOUNS
+AVG WORD LENGTH
+
+
+5.Output Data Structure
+Output Variables:
+
+All input variables in “Input.xlsx”
+POSITIVE SCORE
+NEGATIVE SCORE
+POLARITY SCORE
+SUBJECTIVITY SCORE
+AVG SENTENCE LENGTH
+PERCENTAGE OF COMPLEX WORDS
+FOG INDEX
+AVG NUMBER OF WORDS PER SENTENCE
+COMPLEX WORD COUNT
+WORD COUNT
+SYLLABLE PER WORD
+PERSONAL PRONOUNS
+AVG WORD LENGTH
+Checkout output data structure spreadsheet for the format of your output, i.e. “Output Data Structure.xlsx”.
+
+How to Run the Program
+First run the Data_Extraction_And_NLP_Analysis(Main).py File.
+Others are Automatically Run
+Must insatll the lib for progeam
+pip install requests, pip install openpyxl, pip install nltk, pip install bs4
+About
+No description, website, or topics provided.
+Resources
+ Readme
+ Activity
+Stars
+ 1 star
+Watchers
+ 1 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Languages
+Python
+100.0%
+Footer
 # Data-Extraction-and-NLP-using-web-scraping
